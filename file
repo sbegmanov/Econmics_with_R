@@ -1,0 +1,512 @@
+index_Ap <- sample(1:10, 5)
+print(index_Ap)
+Scores[index_Ap,]
+# remaining  5 students in Class B
+Scores[-index_Ap,]
+# mean differences
+mean(scores[index_Ap]) - mean(scores[-index_Ap])
+# shuffling is repeated with a loop
+iters <- 999
+mean_diff_p <- numeric(iters)
+for (i in 1:iters) {
+index_Ap <- sample(1:10, 5); index_Ap
+mean_diff_p[i] <- mean(scores[index_Ap]) - mean(scores[-index_Ap])
+}
+mean_diff_p <- tibble(mean_diff_p)
+mean_diff_p
+# plot the permutation distribution of mean differences
+ggplot(mean_diff_p, aes(x = mean_diff_p)) +
+geom_bar() +
+geom_vline(xintercept = 5)
+# abs value of the mean diff is = or > 5
+sum_extreme_values <- sum(abs(mean_diff_p) >= 5)
+sum_extreme_values
+# p-value (add 1 to numerator and denominator for an improved p-value)
+p_value <- (sum_extreme_values + 1) / (iters + 1)
+paste("The p-value is", sep = " ", round(p_value, 4))
+# Our alternate hypothesis is that Class B students are better. The probability of
+# Our alternate hypothesis is that Class B students are better. The probability of
+# observing a mean difference of 5 if the sharp null hypothesis that the scores of all the
+# Our alternate hypothesis is that Class B students are better. The probability of
+# observing a mean difference of 5 if the sharp null hypothesis that the scores of all the
+# students are the same is true is very low; the data provides strong evidence against
+install.packages("resample")
+library(resample)
+data("Verizon")
+str(Verizon)
+table(Verizon$Group)
+ggplot(Verizon, aes(x = Time)) +
+geom_density() =
+facet_wrap(~Group)
+ggplot(Verizon, aes(x = Time)) +
+geom_density() +
+facet_wrap(~Group)
+ggplot(Verizon, aes(x = Time)) +
+geom_density() +
+facet_wrap(~ Group)
+ggplot(Verizon, aes(x = Group, y = log10(Time + 1))) +
+geom_boxplot() +
+coord_flip()
+ggplot(Verizon, aes(x = Group, y = log10(Time))) +
+geom_boxplot() +
+coord_flip()
+Verizon$Time
+ggplot(Verizon, aes(x = Group, y = log10(Time + 1))) +
+geom_boxplot() +
+coord_flip()
+Verizon %>%
+group_by(Group) %>%
+summarize(mean_T = round(mean(Time), 1),
+t_mean_T = round(mean(Time, trim = 0.25), 1))
+Ver_CLEC <- Verizon %>%
+Ver_CLEC <- Verizon %>%
+filter(Group == "CLEC")
+library(magrittr)
+Ver_CLEC <- Verizon %>%
+filter(Group == "CLEC")
+Ver_CLEC <- Verizon %>%
+filter(Group == "CLEC")
+Ver_ILEC <- Verizon %>%
+filter(Group == "ILEC")
+# trimmed mean for ILECT 10 times > ILEC's
+diff_mean <- mean(Ver_ILEC$Time, trim = 0.25) - mean(Ver_CLEC$Time, trim = 0.25)
+# trimmed mean for ILECT 10 times > ILEC's
+diff_t_mean <- mean(Ver_ILEC$Time, trim = 0.25) - mean(Ver_CLEC$Time, trim = 0.25)
+print(diff_t_mean)
+head(Verizon)
+iters <- 1000
+diff_t_perm <- numeric(iters)
+length(Verizon)
+length(Verizon$Time)
+size(Verizon)
+length(Verizon$Group)
+length(Ver_ILEC)
+length(Ver_ILEC$Time)
+length(Ver_CLEC$Time)
+iters <- 1000
+diff_t_perm <- numeric(iters)
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perm[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+# plot permutation dist for diff of trimmed means
+ggplot() +
+geom_histogram(aes(diff_t_perms)) +
+geom_vline(xintercept = diff_t_mean, linetype = 2)
+iters <- 1000
+diff_t_perm <- numeric(iters)
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+iters <- 1000
+diff_t_perms <- numeric(iters)
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+# plot permutation dist for diff of trimmed means
+ggplot() +
+geom_histogram(aes(diff_t_perms)) +
+geom_vline(xintercept = diff_t_mean, linetype = 2)
+# p-value diff in trimmed means
+p_value <- (sum(diff_t_perms <= diff_t_mean + 1) / (iters + 1))
+paste("The p_value is", sep = " ", round(p_value, 4))
+diff_t_perm
+iters <- 1000
+diff_t_perms <- numeric(iters)
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+# plot permutation dist for diff of trimmed means
+ggplot() +
+geom_histogram(aes(diff_t_perms)) +
+geom_vline(xintercept = diff_t_mean, linetype = 2)
+diff_t_mean
+diff_t_perm
+diff_t_perms
+# p-value diff in trimmed means
+p_value <- (sum(diff_t_perms <= diff_t_mean + 1) / (iters + 1))
+paste("The p_value is", sep = " ", round(p_value, 4))
+data("Verizon")
+str(Verizon)
+table(Verizon$Group)
+ggplot(Verizon, aes(x = Time)) +
+geom_density() +
+facet_wrap(~ Group)
+ggplot(Verizon, aes(x = Group, y = log10(Time + 1))) +
+geom_boxplot() +
+coord_flip()
+Verizon %>%
+group_by(Group) %>%
+summarize(mean_T = round(mean(Time), 1),
+t_mean_T = round(mean(Time, trim = 0.25), 1))
+# A trimmed mean is a method of averaging that removes a small percentage of
+# the largest and smallest values before calculating the mean.
+library(magrittr)
+Ver_CLEC <- Verizon %>%
+filter(Group == "CLEC")
+Ver_ILEC <- Verizon %>%
+filter(Group == "ILEC")
+# trimmed mean for ILECT 10 times > ILEC's
+diff_t_mean <- mean(Ver_ILEC$Time, trim = 0.25) - mean(Ver_CLEC$Time, trim = 0.25)
+print(diff_t_mean)
+### Permutation Test
+# randomization of diff of trimmed means
+# H_0: repair times are same
+length(Verizon$Time)
+length(Ver_ILEC$Time)
+iters <- 1000
+diff_t_perms <- numeric(iters)
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+# plot permutation dist for diff of trimmed means
+ggplot() +
+geom_histogram(aes(diff_t_perms)) +
+geom_vline(xintercept = diff_t_mean, linetype = 2)
+# p-value diff in trimmed means
+p_value <- (sum(diff_t_perms <= diff_t_mean + 1) / (iters + 1))
+paste("The p_value is", sep = " ", round(p_value, 4))
+# CLEC & ILEC skewed -> trimmed mean is good (trims away extreme obs
+Ver_CLEC
+Ver_ILEC
+CLEC <- Ver_CLEC$Time
+length_c <- length(CLEC)
+print(length_c)
+length_i <- length(ILEC)
+print(length_i)
+length_i <- length(ILEC)
+print(length_i)
+CLEC <- Ver_CLEC$Time
+ILEC <- Ver_ILEC$Time
+length_c <- length(CLEC)
+print(length_c)
+length_i <- length(ILEC)
+print(length_i)
+mean(ILEC) - mean(CLEC)
+mean(ILEC, trim = 0.25) - mean(CLEC, trim = 0.25)
+# sample with replacement
+sims <- 10000
+diff_mean <- numeric(sims)
+diff_trim_mean <- numeric(sims)
+diff_mean[i] <- mean(sampI, trim = 0.25) - mean(samp_C, trim = 0.25)
+diff_mean[i] <- mean(samp_I, trim = 0.25) - mean(samp_C, trim = 0.25)
+for(i in 1:sims) {
+samp_I <- sample(ILEC, length_i, replace = TRUE)
+samp_C <- sample(CLEC, length_c, replace = TRUE)
+diff_mean[i] <- mean(samp_I, trim = 0.25) - mean(samp_C, trim = 0.25)
+}
+ggplot() + geom_histogram(aes(diff_mean)) +
+geom_vline(xintercept = mean(diff_mean), linetype = 2)
+ggplot() +
+geom_histogram(aes(diff_trim_mean)) +
+geom_vline(xintercept = mean(diff_trim_mean), linetype = 2)
+for(i in 1:sims) {
+samp_I <- sample(ILEC, length_i, replace = TRUE)
+samp_C <- sample(CLEC, length_c, replace = TRUE)
+diff_mean[i] <- mean(samp_I) - mean(samp_C)
+diff_trim_mean[i] <- mean(samp_I, trim = 0.25) - mean(samp_C, trim = 0.25)
+}
+ggplot() + geom_histogram(aes(diff_mean)) +
+geom_vline(xintercept = mean(diff_mean), linetype = 2)
+ggplot() +
+geom_histogram(aes(diff_trim_mean)) +
+geom_vline(xintercept = mean(diff_trim_mean), linetype = 2)
+ggplot() + geom_histogram(aes(diff_mean)) +
+geom_vline(xintercept = mean(diff_mean), linetype = 2)
+ggplot() +
+geom_histogram(aes(diff_trim_mean)) +
+geom_vline(xintercept = mean(diff_trim_mean), linetype = 2)
+# bootstrap distr of diff. means is skewed, better use trimmed mean
+quantile(diff_trim_mean, probs = c(0.025, 0.975))
+data("Verizon")
+str(Verizon)
+table(Verizon$Group)
+ggplot(Verizon, aes(x = Time)) +
+geom_density() +
+facet_wrap(~ Group)
+ggplot(Verizon, aes(x = Group, y = log10(Time + 1))) +
+geom_boxplot() +
+coord_flip()
+Verizon %>%
+group_by(Group) %>%
+summarize(mean_T = round(mean(Time), 1),
+t_mean_T = round(mean(Time, trim = 0.25), 1))
+# A trimmed mean is a method of averaging that removes a small percentage of
+# the largest and smallest values before calculating the mean.
+library(magrittr)
+Ver_CLEC <- Verizon %>%
+filter(Group == "CLEC")
+Ver_ILEC <- Verizon %>%
+filter(Group == "ILEC")
+# trimmed mean for ILECT 10 times > ILEC's
+diff_t_mean <- mean(Ver_ILEC$Time, trim = 0.25) - mean(Ver_CLEC$Time, trim = 0.25)
+print(diff_t_mean)
+# Permutation Test
+# randomization of diff of trimmed means
+# H_0: repair times are same
+length(Verizon$Time)
+length(Ver_ILEC$Time)
+iters <- 1000
+diff_t_perms <- numeric(iters)
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+# plot permutation dist for diff of trimmed means
+ggplot() +
+geom_histogram(aes(diff_t_perms)) +
+geom_vline(xintercept = diff_t_mean, linetype = 2)
+# p-value diff in trimmed means
+p_value <- (sum(diff_t_perms <= diff_t_mean + 1) / (iters + 1))
+paste("The p_value is", sep = " ", round(p_value, 4))
+CLEC <- Ver_CLEC$Time
+ILEC <- Ver_ILEC$Time
+length_c <- length(CLEC)
+print(length_c)
+length_i <- length(ILEC)
+print(length_i)
+mean(ILEC) - mean(CLEC)
+mean(ILEC, trim = 0.25) - mean(CLEC, trim = 0.25)
+# sample with replacement
+sims <- 10000
+diff_mean <- numeric(sims)
+diff_trim_mean <- numeric(sims)
+for(i in 1:sims) {
+samp_I <- sample(ILEC, length_i, replace = TRUE)
+samp_C <- sample(CLEC, length_c, replace = TRUE)
+diff_mean[i] <- mean(samp_I) - mean(samp_C)
+diff_trim_mean[i] <- mean(samp_I, trim = 0.25) - mean(samp_C, trim = 0.25)
+}
+ggplot() + geom_histogram(aes(diff_mean)) +
+geom_vline(xintercept = mean(diff_mean), linetype = 2)
+ggplot() +
+geom_histogram(aes(diff_trim_mean)) +
+geom_vline(xintercept = mean(diff_trim_mean), linetype = 2)
+# bootstrap distr of diff. means is skewed, better use trimmed mean
+quantile(diff_trim_mean, probs = c(0.025, 0.975))
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+# plot permutation dist for diff of trimmed means
+ggplot() +
+geom_histogram(aes(diff_t_perms)) +
+geom_vline(xintercept = diff_t_mean, linetype = 2)
+library(resample)
+data("Verizon")
+str(Verizon)
+table(Verizon$Group)
+ggplot(Verizon, aes(x = Time)) +
+geom_density() +
+facet_wrap(~ Group)
+ggplot(Verizon, aes(x = Group, y = log10(Time + 1))) +
+geom_boxplot() +
+coord_flip()
+Verizon %>%
+group_by(Group) %>%
+summarize(mean_T = round(mean(Time), 1),
+t_mean_T = round(mean(Time, trim = 0.25), 1))
+# A trimmed mean is a method of averaging that removes a small percentage of
+# the largest and smallest values before calculating the mean.
+library(magrittr)
+Ver_CLEC <- Verizon %>%
+filter(Group == "CLEC")
+Ver_ILEC <- Verizon %>%
+filter(Group == "ILEC")
+# trimmed mean for ILECT 10 times > ILEC's
+diff_t_mean <- mean(Ver_ILEC$Time, trim = 0.25) - mean(Ver_CLEC$Time, trim = 0.25)
+print(diff_t_mean)
+# Permutation Test
+# randomization of diff of trimmed means
+# H_0: repair times are same
+length(Verizon$Time)
+length(Ver_ILEC$Time)
+iters <- 1000
+diff_t_perms <- numeric(iters)
+for(i in 1:iters) {
+index <- sample(1:1687, size = 1664, replace = FALSE)
+diff_t_perms[i] <- mean(Verizon$Time[index], trim = 0.25) -
+mean(Verizon$Time[-index], trim = 0.25)
+}
+# plot permutation dist for diff of trimmed means
+ggplot() +
+geom_histogram(aes(diff_t_perms)) +
+geom_vline(xintercept = diff_t_mean, linetype = 2)
+# p-value diff in trimmed means
+p_value <- (sum(diff_t_perms <= diff_t_mean + 1) / (iters + 1))
+paste("The p_value is", sep = " ", round(p_value, 4))
+CLEC <- Ver_CLEC$Time
+ILEC <- Ver_ILEC$Time
+length_c <- length(CLEC)
+print(length_c)
+length_i <- length(ILEC)
+print(length_i)
+mean(ILEC) - mean(CLEC)
+mean(ILEC, trim = 0.25) - mean(CLEC, trim = 0.25)
+# sample with replacement
+sims <- 10000
+diff_mean <- numeric(sims)
+diff_trim_mean <- numeric(sims)
+for(i in 1:sims) {
+samp_I <- sample(ILEC, length_i, replace = TRUE)
+samp_C <- sample(CLEC, length_c, replace = TRUE)
+diff_mean[i] <- mean(samp_I) - mean(samp_C)
+diff_trim_mean[i] <- mean(samp_I, trim = 0.25) - mean(samp_C, trim = 0.25)
+}
+ggplot() + geom_histogram(aes(diff_mean)) +
+geom_vline(xintercept = mean(diff_mean), linetype = 2)
+ggplot() +
+geom_histogram(aes(diff_trim_mean)) +
+geom_vline(xintercept = mean(diff_trim_mean), linetype = 2)
+# bootstrap distr of diff. means is skewed, better use trimmed mean
+quantile(diff_trim_mean, probs = c(0.025, 0.975))
+set.seed(15)
+sample_size <- 30
+xvar <- rnorm(sample_size, mean = 0.1, sd = 1)
+noise <- 2 * rnorm(sample_size)
+xobs <- xvar + noise
+summary(lm(xobs ~ 1))
+xvar
+plot(xvar)
+ggplot(xvar, aes(x = xvar))
+hist(xvar)
+noise
+lm(xobs ~ 1)
+ploy(lm(xobs~1))
+plot(lm(xobs ~ 1))
+# assumptions beta_0, beta_M, U_p ~ N(0, 1)
+library(tidyverse)
+set.seed(22)
+beta0 <- 10
+betM <- 3
+num <- 400
+U_P <- rnorm(num)
+# generate dataset Meds,contains M, P, U_P
+set.seed(3)
+M <- sample(c(0, 1), num, replace = T)
+Indiv <- 1: num
+P <- beta0 + betaM * M + U_P
+# assumptions beta_0, beta_M, U_p ~ N(0, 1)
+library(tidyverse)
+set.seed(22)
+beta0 <- 10
+betaM <- 3
+num <- 400
+U_P <- rnorm(num)
+# generate dataset Meds,contains M, P, U_P
+set.seed(3)
+M <- sample(c(0, 1), num, replace = T)
+Indiv <- 1: num
+P <- beta0 + betaM * M + U_P
+Meds <- tibble(Indiv, M, U_P, P)
+kable()
+install.packages("knitr")
+library(knitr)
+kable(round(head(Meds), 2))
+length(kable(round(head(Meds), 2)))
+U_P
+plot(U_P)
+plot(U_P ~ 1)
+hist(U_P)
+as.Date("1971-01-01")
+a <- as.Date("1971-01-01")
+typeof(a)
+unclass(a)
+erase.screen()
+data("iris")
+d <- data("iris")
+remove(d)
+d
+data("iris")
+d <- data("iris")
+erase(d)
+erase.screen(d)
+delete.response(d)
+d
+d <- data("iris")
+d
+head(d)
+View(d)
+data("iris")
+head(iris)
+xvect <- c(1, 2, 3)
+xvect[2] <- 2
+xvect
+xvect <- c(1, 2, 3)
+xvect[2] <- "2"
+xvect
+typeof(xvect)
+xvect <- c(1, 2, 3)
+typeof(xvect)
+xvect[2] <- "2"
+xvect
+typeof(xvect)
+height <- 35
+typeof(height)
+a <- numeric(35)
+typeof(a)
+height[length(a)]
+height <- numeric(35)
+height(5)
+height <- c(35)
+height
+height[length(height)]
+rates <- data.frame(Product = c("Product1", "Product2", "Product3", "Product4", "Product5", "Product6", "Product7", "Product8"), Ellen = c(64, 108, 42, 108, 89, 112, 14, 29))
+rates
+sd(rates[, 2])
+sample <-- not sure
+sample <- not sure
+hist(rates)
+plot(rates)
+hist(rates, Ellen)
+hist(rates$Ellen)
+Var_A! <- c(3)
+Var2_A <- c(3)
+Var2_A
+height
+height(length(height))
+height[length[height]]
+height(5)
+array()
+attr(rates)
+a <- list("a", "b")
+attr(a)
+a <- list("a", "b", 3)
+a
+attributes(a)
+attr(a)
+attr(rates, a)
+StDf <- data.frame(State = c("OH", "CO", "CA"), Capital = c("Columbus", "Denver", "Sacramento"), Year = c(1803, 1876, 1850))
+StDf
+StDf[1:2, 1]
+StDf[1:2, -3]
+StDf[1:2,]
+StDf[1, 2, ]
+StDf[1:2,]
+StDf[1:2, 2]
+StDf[1:2, ]
+BOF(pizza, 5)
+BOF()
+history(Inf)
+savehistory("file")

@@ -1,0 +1,267 @@
+iso2c,country,year,NY.GDP.PCAP.PP.KD,EN.ATM.CO2E.PC,iso3c,region,capital,longitude,latitude,income,lending
+1A,Arab World,2010,13113.9869085346,4.32200192749412,ARB,Aggregates,,,,Aggregates,Aggregates
+1W,World,2010,13890.0040942507,4.4831625158349,WLD,Aggregates,,,,Aggregates,Aggregates
+4E,East Asia & Pacific (excluding high income),2010,8510.81309223509,4.90596444289655,EAP,Aggregates,,,,Aggregates,Aggregates
+7E,Europe & Central Asia (excluding high income),2010,17964.503627833,7.22829990687747,ECA,Aggregates,,,,Aggregates,Aggregates
+8S,South Asia,2010,4076.36781589934,1.14982190181249,SAS,Aggregates,,,,Aggregates,Aggregates
+AD,Andorra,2010,NA,6.1571980012788,AND,Europe & Central Asia,Andorra la Vella,1.5218,42.5075,High income,Not classified
+AE,United Arab Emirates,2010,54921.7972461198,19.0432793083694,ARE,Middle East & North Africa,Abu Dhabi,54.3705,24.4764,High income,Not classified
+AF,Afghanistan,2010,1957.02906990812,0.297065211570221,AFG,South Asia,Kabul,69.1761,34.5228,Low income,IDA
+AG,Antigua and Barbuda,2010,18206.0165312204,5.5662842212882,ATG,Latin America & Caribbean,Saint John's,-61.8456,17.1175,High income,IBRD
+AL,Albania,2010,10749.487319516,1.57225093811545,ALB,Europe & Central Asia,Tirane,19.8172,41.3317,Upper middle income,IBRD
+AM,Armenia,2010,9286.19732701296,1.50835119142367,ARM,Europe & Central Asia,Yerevan,44.509,40.1596,Upper middle income,IBRD
+AO,Angola,2010,7692.43428623311,1.22151474078862,AGO,Sub-Saharan Africa,Luanda,13.242,-8.81155,Lower middle income,IBRD
+AR,Argentina,2010,23521.2701750961,4.12224508735352,ARG,Latin America & Caribbean,Buenos Aires,-58.4173,-34.6118,Upper middle income,IBRD
+AS,American Samoa,2010,NA,NA,ASM,East Asia & Pacific,Pago Pago,-170.691,-14.2846,Upper middle income,Not classified
+AT,Austria,2010,51843.4283275453,8.36501501063443,AUT,Europe & Central Asia,Vienna,16.3798,48.2201,High income,Not classified
+AU,Australia,2010,44914.9812132027,17.5814449601144,AUS,East Asia & Pacific,Canberra,149.129,-35.282,High income,Not classified
+AW,Aruba,2010,34343.1513198843,NA,ABW,Latin America & Caribbean,Oranjestad,-70.0167,12.5167,High income,Not classified
+AZ,Azerbaijan,2010,14082.2381492462,2.66723155280809,AZE,Europe & Central Asia,Baku,49.8932,40.3834,Upper middle income,IBRD
+B8,Central Europe and the Baltics,2010,24116.2404215814,6.78615380612375,CEB,Aggregates,,,,Aggregates,Aggregates
+BA,Bosnia and Herzegovina,2010,10938.2846994308,5.62410571591573,BIH,Europe & Central Asia,Sarajevo,18.4214,43.8607,Upper middle income,IBRD
+BB,Barbados,2010,15596.6168113309,5.63567987920505,BRB,Latin America & Caribbean,Bridgetown,-59.6105,13.0935,High income,Not classified
+BD,Bangladesh,2010,2883.46679391309,0.342739973529334,BGD,South Asia,Dhaka,90.4113,23.7055,Lower middle income,IDA
+BE,Belgium,2010,47972.558838523,9.77184705806553,BEL,Europe & Central Asia,Brussels,4.36761,50.8371,High income,Not classified
+BF,Burkina Faso,2010,1716.35832279765,0.133929621329696,BFA,Sub-Saharan Africa,Ouagadougou,-1.53395,12.3605,Low income,IDA
+BG,Bulgaria,2010,18160.6029257883,6.06441750019167,BGR,Europe & Central Asia,Sofia,23.3238,42.7105,Upper middle income,IBRD
+BH,Bahrain,2010,44599.804972084,20.9370245248472,BHR,Middle East & North Africa,Manama,50.5354,26.1921,High income,Not classified
+BI,Burundi,2010,846.169136789899,0.0368850314318101,BDI,Sub-Saharan Africa,Bujumbura,29.3639,-3.3784,Low income,IDA
+BJ,Benin,2010,2704.7054840378,0.552218690776448,BEN,Sub-Saharan Africa,Porto-Novo,2.6323,6.4779,Low income,IDA
+BM,Bermuda,2010,88399.9159492493,NA,BMU,North America,Hamilton,-64.706,32.3293,High income,Not classified
+BN,Brunei Darussalam,2010,67753.4217667143,17.6515693428779,BRN,East Asia & Pacific,Bandar Seri Begawan,114.946,4.94199,High income,Not classified
+BO,Bolivia,2010,6612.80335425232,1.49672635891359,BOL,Latin America & Caribbean,La Paz,-66.1936,-13.9908,Lower middle income,IBRD
+BR,Brazil,2010,14873.2083173363,2.03220381623177,BRA,Latin America & Caribbean,Brasilia,-47.9292,-15.7801,Upper middle income,IBRD
+BS,"Bahamas, The",2010,36547.4280141566,5.86021141839656,BHS,Latin America & Caribbean,Nassau,-77.339,25.0661,High income,Not classified
+BT,Bhutan,2010,8190.57622279014,0.685628925954994,BTN,South Asia,Thimphu,89.6177,27.5768,Lower middle income,IDA
+BW,Botswana,2010,13126.2146962517,1.69593368446374,BWA,Sub-Saharan Africa,Gaborone,25.9201,-24.6544,Upper middle income,IBRD
+BY,Belarus,2010,17300.7036830881,6.48155451022139,BLR,Europe & Central Asia,Minsk,27.5766,53.9678,Upper middle income,IBRD
+BZ,Belize,2010,7294.663222693,1.73662257919464,BLZ,Latin America & Caribbean,Belmopan,-88.7713,17.2534,Upper middle income,IBRD
+CA,Canada,2010,44861.5239641879,15.7339140263037,CAN,North America,Ottawa,-75.6919,45.4215,High income,Not classified
+CD,"Congo, Dem. Rep.",2010,865.684040221023,0.0319063981512999,COD,Sub-Saharan Africa,Kinshasa,15.3222,-4.325,Low income,IDA
+CF,Central African Republic,2010,1201.35219681679,0.061548772272962,CAF,Sub-Saharan Africa,Bangui,21.6407,5.63056,Low income,IDA
+CG,"Congo, Rep.",2010,5169.16742154605,1.16525626980409,COG,Sub-Saharan Africa,Brazzaville,15.2662,-4.2767,Lower middle income,Blend
+CH,Switzerland,2010,65819.7372527487,5.77770297392596,CHE,Europe & Central Asia,Bern,7.44821,46.948,High income,Not classified
+CI,Cote d'Ivoire,2010,3778.20847115295,0.302927821748309,CIV,Sub-Saharan Africa,Yamoussoukro,-4.0305,5.332,Lower middle income,IDA
+CL,Chile,2010,21262.4669863019,4.08614642223947,CHL,Latin America & Caribbean,Santiago,-70.6475,-33.475,High income,IBRD
+CM,Cameroon,2010,3223.51002354578,0.441959377493088,CMR,Sub-Saharan Africa,Yaounde,11.5174,3.8721,Lower middle income,Blend
+CN,China,2010,8884.58803122605,6.33216591101925,CHN,East Asia & Pacific,Beijing,116.286,40.0495,Upper middle income,IBRD
+CO,Colombia,2010,11783.2999142858,1.4302551910933,COL,Latin America & Caribbean,Bogota,-74.082,4.60987,Upper middle income,IBRD
+CR,Costa Rica,2010,16830.436178231,1.55329336424773,CRI,Latin America & Caribbean,San Jose,-84.0089,9.63701,Upper middle income,IBRD
+CU,Cuba,2010,NA,2.69556833777948,CUB,Latin America & Caribbean,Havana,-82.3667,23.1333,Upper middle income,Not classified
+CV,Cabo Verde,2010,6200.3435365952,1.09612620878362,CPV,Sub-Saharan Africa,Praia,-23.5087,14.9218,Lower middle income,Blend
+CW,Curacao,2010,28543.3607059699,NA,CUW,Latin America & Caribbean,Willemstad,,,High income,Not classified
+CY,Cyprus,2010,38379.0903965443,7.0284743087693196,CYP,Europe & Central Asia,Nicosia,33.3736,35.1676,High income,Not classified
+CZ,Czech Republic,2010,33483.137594809,10.8769849566706,CZE,Europe & Central Asia,Prague,14.4205,50.0878,High income,Not classified
+DE,Germany,2010,46999.2399709894,9.4515653742443,DEU,Europe & Central Asia,Berlin,13.4115,52.5235,High income,Not classified
+DJ,Djibouti,2010,NA,0.618904681537835,DJI,Middle East & North Africa,Djibouti,43.1425,11.5806,Lower middle income,IDA
+DK,Denmark,2010,50825.4122929358,8.68470675054793,DNK,Europe & Central Asia,Copenhagen,12.5681,55.6763,High income,Not classified
+DM,Dominica,2010,12003.7660822063,2.53961087517813,DMA,Latin America & Caribbean,Roseau,-61.39,15.2976,Upper middle income,Blend
+DO,Dominican Republic,2010,12782.4571724153,2.12890674759263,DOM,Latin America & Caribbean,Santo Domingo,-69.8908,18.479,Upper middle income,IBRD
+DZ,Algeria,2010,10970.6924199942,3.14474752533191,DZA,Middle East & North Africa,Algiers,3.05097,36.7397,Upper middle income,IBRD
+EC,Ecuador,2010,10340.9702972165,2.30828971120997,ECU,Latin America & Caribbean,Quito,-78.5243,-0.229498,Upper middle income,IBRD
+EE,Estonia,2010,26015.7463509325,14.1797630447436,EST,Europe & Central Asia,Tallinn,24.7586,59.4392,High income,Not classified
+EG,"Egypt, Arab Rep.",2010,10340.073229068401,2.37429973865545,EGY,Middle East & North Africa,Cairo,31.2461,30.0982,Lower middle income,IBRD
+ER,Eritrea,2010,NA,0.157706965948227,ERI,Sub-Saharan Africa,Asmara,38.9183,15.3315,Low income,IDA
+ES,Spain,2010,37319.4762230353,5.86664242575026,ESP,Europe & Central Asia,Madrid,-3.70327,40.4167,High income,Not classified
+ET,Ethiopia,2010,1259.02258051063,0.0738247695725838,ETH,Sub-Saharan Africa,Addis Ababa,38.7468,9.02274,Low income,IDA
+EU,European Union,2010,39006.3172267458,7.28154919271329,EUU,Aggregates,,,,Aggregates,Aggregates
+F1,Fragile and conflict affected situations,2010,3984.19518192051,0.913330586886779,FCS,Aggregates,,,,Aggregates,Aggregates
+FI,Finland,2010,45874.6613021399,11.6587537047727,FIN,Europe & Central Asia,Helsinki,24.9525,60.1608,High income,Not classified
+FJ,Fiji,2010,10547.9097854929,1.34912585948622,FJI,East Asia & Pacific,Suva,178.399,-18.1149,Upper middle income,Blend
+FM,"Micronesia, Fed. Sts.",2010,3659.63876623588,1.06883283454468,FSM,East Asia & Pacific,Palikir,158.185,6.91771,Lower middle income,IDA
+FO,Faroe Islands,2010,NA,NA,FRO,Europe & Central Asia,Torshavn,-6.91181,61.8926,High income,Not classified
+FR,France,2010,42147.6716766942,5.3506589250195,FRA,Europe & Central Asia,Paris,2.35097,48.8566,High income,Not classified
+GA,Gabon,2010,14415.4459113912,2.93692808405156,GAB,Sub-Saharan Africa,Libreville,9.45162,0.38832,Upper middle income,IBRD
+GB,United Kingdom,2010,42147.765559754,7.67592642970483,GBR,Europe & Central Asia,London,-0.126236,51.5002,High income,Not classified
+GD,Grenada,2010,13412.7933652353,2.73000273000273,GRD,Latin America & Caribbean,Saint George's,-61.7449,12.0653,Upper middle income,Blend
+GE,Georgia,2010,9736.73209374292,1.40491906530629,GEO,Europe & Central Asia,Tbilisi,44.793,41.71,Upper middle income,IBRD
+GH,Ghana,2010,3828.41937142279,0.449966654040697,GHA,Sub-Saharan Africa,Accra,-0.20795,5.57045,Lower middle income,IDA
+GI,Gibraltar,2010,NA,NA,GIB,Europe & Central Asia,,,,High income,Not classified
+GL,Greenland,2010,NA,NA,GRL,Europe & Central Asia,Nuuk,-51.7214,64.1836,High income,Not classified
+GM,"Gambia, The",2010,2346.72047883159,0.245371539912748,GMB,Sub-Saharan Africa,Banjul,-16.5885,13.4495,Low income,IDA
+GN,Guinea,2010,1870.80005065095,0.245286380679753,GIN,Sub-Saharan Africa,Conakry,-13.7,9.51667,Low income,IDA
+GQ,Equatorial Guinea,2010,34732.2191497036,10.088593107541,GNQ,Sub-Saharan Africa,Malabo,8.7741,3.7523,Upper middle income,IBRD
+GR,Greece,2010,33693.2114765963,7.87494961264114,GRC,Europe & Central Asia,Athens,23.7166,37.9792,High income,Not classified
+GT,Guatemala,2010,7335.98897429945,0.802962926184845,GTM,Latin America & Caribbean,Guatemala City,-90.5328,14.6248,Upper middle income,IBRD
+GU,Guam,2010,NA,NA,GUM,East Asia & Pacific,Agana,144.794,13.4443,High income,Not classified
+GW,Guinea-Bissau,2010,1747.23748547332,0.157624804364631,GNB,Sub-Saharan Africa,Bissau,-15.1804,11.8037,Low income,IDA
+GY,Guyana,2010,9788.84875102514,2.34845148979891,GUY,Latin America & Caribbean,Georgetown,-58.1548,6.80461,Upper middle income,IDA
+HK,"Hong Kong SAR, China",2010,51360.9669751956,NA,HKG,East Asia & Pacific,,114.109,22.3964,High income,Not classified
+HN,Honduras,2010,4866.97393107266,0.987079359617537,HND,Latin America & Caribbean,Tegucigalpa,-87.4667,15.1333,Lower middle income,IDA
+HR,Croatia,2010,24500.0694582758,4.53039942245556,HRV,Europe & Central Asia,Zagreb,15.9614,45.8069,High income,IBRD
+HT,Haiti,2010,2900.90956874511,0.247253128304875,HTI,Latin America & Caribbean,Port-au-Prince,-72.3288,18.5392,Low income,IDA
+HU,Hungary,2010,24486.0417269382,4.78798898762533,HUN,Europe & Central Asia,Budapest,19.0408,47.4984,High income,Not classified
+ID,Indonesia,2010,8286.7328696642,1.72407358088346,IDN,East Asia & Pacific,Jakarta,106.83,-6.19752,Lower middle income,IBRD
+IE,Ireland,2010,52965.7882507863,8.90978486476885,IRL,Europe & Central Asia,Dublin,-6.26749,53.3441,High income,Not classified
+IL,Israel,2010,33864.2307468256,9.24891127551288,ISR,Middle East & North Africa,,35.2035,31.7717,High income,Not classified
+IM,Isle of Man,2010,NA,NA,IMN,Europe & Central Asia,Douglas,-4.47928,54.1509,High income,Not classified
+IN,India,2010,4234.97957334912,1.34921446581292,IND,South Asia,New Delhi,77.225,28.6353,Lower middle income,IBRD
+IQ,Iraq,2010,8597.06439188034,4.04243470432379,IRQ,Middle East & North Africa,Baghdad,44.394,33.3302,Upper middle income,IBRD
+IR,"Iran, Islamic Rep.",2010,13805.7038219488,7.46842715607367,IRN,Middle East & North Africa,Tehran,51.4447,35.6878,Upper middle income,IBRD
+IS,Iceland,2010,47457.6229185836,6.16272744709015,ISL,Europe & Central Asia,Reykjavik,-21.8952,64.1353,High income,Not classified
+IT,Italy,2010,42664.3552727925,6.8368363621512,ITA,Europe & Central Asia,Rome,12.4823,41.8955,High income,Not classified
+JG,Channel Islands,2010,NA,NA,CHI,Europe & Central Asia,,,,High income,Not classified
+JM,Jamaica,2010,9435.76084179983,2.66148223211541,JAM,Latin America & Caribbean,Kingston,-76.792,17.9927,Upper middle income,IBRD
+JO,Jordan,2010,11315.5027028063,2.78177868857313,JOR,Middle East & North Africa,Amman,35.9263,31.9497,Upper middle income,IBRD
+JP,Japan,2010,38069.9560385983,9.02693839306629,JPN,East Asia & Pacific,Tokyo,139.77,35.67,High income,Not classified
+KE,Kenya,2010,3691.01301663451,0.300732674252934,KEN,Sub-Saharan Africa,Nairobi,36.8126,-1.27975,Lower middle income,Blend
+KG,Kyrgyz Republic,2010,4141.07720559948,1.16558673984471,KGZ,Europe & Central Asia,Bishkek,74.6057,42.8851,Lower middle income,IDA
+KH,Cambodia,2010,2716.69973756347,0.34376254392667,KHM,East Asia & Pacific,Phnom Penh,104.874,11.5556,Lower middle income,IDA
+KI,Kiribati,2010,1923.11390389339,0.485767026134266,KIR,East Asia & Pacific,Tarawa,172.979,1.32905,Lower middle income,IDA
+KM,Comoros,2010,2878.26971036373,0.231986266413028,COM,Sub-Saharan Africa,Moroni,43.2418,-11.6986,Lower middle income,IDA
+KN,St. Kitts and Nevis,2010,22223.9132167449,4.89685988859644,KNA,Latin America & Caribbean,Basseterre,-62.7309,17.3,High income,IBRD
+KP,"Korea, Dem. People's Rep.",2010,NA,2.10274701370818,NA,NA,NA,NA,NA,NA,NA
+KR,"Korea, Rep.",2010,34394.4904890551,11.588543852829,KOR,East Asia & Pacific,Seoul,126.957,37.5323,High income,Not classified
+KW,Kuwait,2010,58810.4049325991,26.1540888617339,KWT,Middle East & North Africa,Kuwait City,47.9824,29.3721,High income,Not classified
+KY,Cayman Islands,2010,66882.5075913816,NA,CYM,Latin America & Caribbean,George Town,-81.3857,19.3022,High income,Not classified
+KZ,Kazakhstan,2010,20751.2572399462,13.6975709648991,KAZ,Europe & Central Asia,Astana,71.4382,51.1879,Upper middle income,IBRD
+LA,Lao PDR,2010,4850.17506683389,0.460861349862894,LAO,East Asia & Pacific,Vientiane,102.177,18.5826,Lower middle income,IDA
+LB,Lebanon,2010,19499.4146336941,4.21557242143449,LBN,Middle East & North Africa,Beirut,35.5134,33.8872,Upper middle income,IBRD
+LC,St. Lucia,2010,14137.5895128928,2.29763573283092,LCA,Latin America & Caribbean,Castries,-60.9832,14,Upper middle income,Blend
+LI,Liechtenstein,2010,NA,5.27836426269586,LIE,Europe & Central Asia,Vaduz,9.52148,47.1411,High income,Not classified
+LK,Sri Lanka,2010,9126.86561223093,0.64505818799947,LKA,South Asia,Colombo,79.8528,6.92148,Upper middle income,IBRD
+LR,Liberia,2010,1465.55929680094,0.187595227063464,LBR,Sub-Saharan Africa,Monrovia,-10.7957,6.30039,Low income,IDA
+LS,Lesotho,2010,2346.71329671032,1.08239479849166,LSO,Sub-Saharan Africa,Maseru,27.7167,-29.5208,Lower middle income,IDA
+LT,Lithuania,2010,23942.7603567557,4.06808291915299,LTU,Europe & Central Asia,Vilnius,25.2799,54.6896,High income,Not classified
+LU,Luxembourg,2010,114343.988089326,21.8166181085821,LUX,Europe & Central Asia,Luxembourg,6.1296,49.61,High income,Not classified
+LV,Latvia,2010,21176.2793923828,4.06187203672848,LVA,Europe & Central Asia,Riga,24.1048,56.9465,High income,Not classified
+LY,Libya,2010,22539.8927593081,9.23411987123542,LBY,Middle East & North Africa,Tripoli,13.1072,32.8578,Upper middle income,IBRD
+MA,Morocco,2010,6281.46419122613,1.65907191405822,MAR,Middle East & North Africa,Rabat,-6.8704,33.9905,Lower middle income,IBRD
+MC,Monaco,2010,NA,NA,MCO,Europe & Central Asia,Monaco,7.41891,43.7325,High income,Not classified
+MD,Moldova,2010,8550.170639047,2.90058979824126,MDA,Europe & Central Asia,Chisinau,28.8497,47.0167,Lower middle income,Blend
+ME,Montenegro,2010,16764.3555167797,4.16513299366512,MNE,Europe & Central Asia,Podgorica,19.2595,42.4602,Upper middle income,IBRD
+MF,St. Martin (French part),2010,NA,NA,MAF,Latin America & Caribbean,Marigot,,,High income,Not classified
+MG,Madagascar,2010,1553.40502004912,0.0884092202779548,MDG,Sub-Saharan Africa,Antananarivo,45.7167,-20.4667,Low income,IDA
+MH,Marshall Islands,2010,3595.17477608311,2.48398715423786,MHL,East Asia & Pacific,Majuro,171.135,7.11046,Upper middle income,IDA
+MK,North Macedonia,2010,13514.9967770313,4.24816691354372,MKD,Europe & Central Asia,Skopje,21.4361,42.0024,Upper middle income,IBRD
+ML,Mali,2010,2082.96193463428,0.184725561605576,MLI,Sub-Saharan Africa,Bamako,-7.50034,13.5667,Low income,IDA
+MM,Myanmar,2010,2762.61345927948,0.163633689228044,MMR,East Asia & Pacific,Naypyidaw,95.9562,21.914,Lower middle income,IDA
+MN,Mongolia,2010,7470.78073904239,5.26121897038937,MNG,East Asia & Pacific,Ulaanbaatar,106.937,47.9129,Lower middle income,Blend
+MO,"Macao SAR, China",2010,118085.567175493,NA,MAC,East Asia & Pacific,,113.55,22.1667,High income,Not classified
+MP,Northern Mariana Islands,2010,NA,NA,MNP,East Asia & Pacific,Saipan,145.765,15.1935,High income,Not classified
+MR,Mauritania,2010,4671.64267694339,0.592410279892393,MRT,Sub-Saharan Africa,Nouakchott,-15.9824,18.2367,Lower middle income,IDA
+MT,Malta,2010,32867.9400344911,6.22424657666438,MLT,Middle East & North Africa,Valletta,14.5189,35.9042,High income,Not classified
+MU,Mauritius,2010,16797.8172336157,2.92706333973129,MUS,Sub-Saharan Africa,Port Louis,57.4977,-20.1605,Upper middle income,IBRD
+MV,Maldives,2010,16305.1622101884,2.62488721187761,MDV,South Asia,Male,73.5109,4.1742,Upper middle income,IDA
+MW,Malawi,2010,1374.57128669155,0.0715287460618783,MWI,Sub-Saharan Africa,Lilongwe,33.7703,-13.9899,Low income,IDA
+MX,Mexico,2010,17790.0119218899,4.11015715509391,MEX,Latin America & Caribbean,Mexico City,-99.1276,19.427,Upper middle income,IBRD
+MY,Malaysia,2010,20536.372513472,7.05862884140643,MYS,East Asia & Pacific,Kuala Lumpur,101.684,3.12433,Upper middle income,IBRD
+MZ,Mozambique,2010,1027.20887652935,0.115589412298807,MOZ,Sub-Saharan Africa,Maputo,32.5713,-25.9664,Low income,IDA
+"NA",Namibia,2010,9031.16059591911,1.47719759098806,"NAM",Sub-Saharan Africa,Windhoek,17.0931,-22.5648,Upper middle income,IBRD
+NC,New Caledonia,2010,NA,NA,NCL,East Asia & Pacific,Noum'ea,166.464,-22.2677,High income,Not classified
+NE,Niger,2010,1036.16071951619,0.0832117298169797,NER,Sub-Saharan Africa,Niamey,2.1073,13.514,Low income,IDA
+NG,Nigeria,2010,4932.33479996173,0.57241745455453,NGA,Sub-Saharan Africa,Abuja,7.48906,9.05804,Lower middle income,Blend
+NI,Nicaragua,2010,4611.78514506767,0.774374156301328,NIC,Latin America & Caribbean,Managua,-86.2734,12.1475,Lower middle income,IDA
+NL,Netherlands,2010,52032.9865022429,10.3012904779748,NLD,Europe & Central Asia,Amsterdam,4.89095,52.3738,High income,Not classified
+NO,Norway,2010,61353.4963937525,8.56163683115536,NOR,Europe & Central Asia,Oslo,10.7387,59.9138,High income,Not classified
+NP,Nepal,2010,2703.41491670115,0.171767831934949,NPL,South Asia,Kathmandu,85.3157,27.6939,Low income,IDA
+NR,Nauru,2010,6688.64973862075,3.99640323708662,NRU,East Asia & Pacific,Yaren District,166.920867,-0.5477,Upper middle income,IBRD
+NZ,New Zealand,2010,37657.1432046716,7.15517043234422,NZL,East Asia & Pacific,Wellington,174.776,-41.2865,High income,Not classified
+OE,OECD members,2010,39293.4796539125,9.81994028951272,OED,Aggregates,,,,Aggregates,Aggregates
+OM,Oman,2010,33974.4133604158,15.2789719326568,OMN,Middle East & North Africa,Muscat,58.5874,23.6105,High income,Not classified
+PA,Panama,2010,21343.3341428256,2.52286016024966,PAN,Latin America & Caribbean,Panama City,-79.5188,8.99427,High income,IBRD
+PE,Peru,2010,10066.4675664813,1.56988088610595,PER,Latin America & Caribbean,Lima,-77.0465,-12.0931,Upper middle income,IBRD
+PF,French Polynesia,2010,NA,NA,PYF,East Asia & Pacific,Papeete,-149.57,-17.535,High income,Not classified
+PG,Papua New Guinea,2010,3406.64403989259,0.686682410206016,PNG,East Asia & Pacific,Port Moresby,147.194,-9.47357,Lower middle income,Blend
+PH,Philippines,2010,5918.37322886056,0.889356817830437,PHL,East Asia & Pacific,Manila,121.035,14.5515,Lower middle income,IBRD
+PK,Pakistan,2010,3906.87397085543,0.783727350094268,PAK,South Asia,Islamabad,72.8,30.5167,Lower middle income,Blend
+PL,Poland,2010,23996.1400503256,8.2470283334079,POL,Europe & Central Asia,Warsaw,21.02,52.26,High income,IBRD
+PR,Puerto Rico,2010,32960.699389748,NA,PRI,Latin America & Caribbean,San Juan,-66,18.23,High income,Not classified
+PS,West Bank and Gaza,2010,5411.0664822782,NA,PSE,Middle East & North Africa,,,,Lower middle income,Not classified
+PT,Portugal,2010,31798.1538079411,4.81788690166555,PRT,Europe & Central Asia,Lisbon,-9.13552,38.7072,High income,Not classified
+PW,Palau,2010,15227.6156241309,11.6965578701125,PLW,East Asia & Pacific,Koror,134.479,7.34194,High income,IBRD
+PY,Paraguay,2010,10415.6564362312,0.806655935795309,PRY,Latin America & Caribbean,Asuncion,-57.6362,-25.3005,Upper middle income,IBRD
+QA,Qatar,2010,95908.3128299584,33.5447003198248,QAT,Middle East & North Africa,Doha,51.5082,25.2948,High income,Not classified
+RO,Romania,2010,20303.1627966692,3.8277519523881,ROU,Europe & Central Asia,Bucharest,26.0979,44.4479,Upper middle income,IBRD
+RS,Serbia,2010,14510.9633040097,6.39928815119546,SRB,Europe & Central Asia,Belgrade,20.4656,44.8024,Upper middle income,IBRD
+RU,Russian Federation,2010,23961.2202930302,11.0827154078026,RUS,Europe & Central Asia,Moscow,37.6176,55.7558,Upper middle income,IBRD
+RW,Rwanda,2010,1507.16501035777,0.0567766520063375,RWA,Sub-Saharan Africa,Kigali,30.0587,-1.95325,Low income,IDA
+S1,Small states,2010,18709.3960197972,5.78126792180679,SST,Aggregates,,,,Aggregates,Aggregates
+S2,Pacific island small states,2010,6273.94828643463,1.12891841938777,PSS,Aggregates,,,,Aggregates,Aggregates
+S3,Caribbean small states,2010,15856.7687513358,5.69036308044249,CSS,Aggregates,,,,Aggregates,Aggregates
+S4,Other small states,2010,20527.8998472132,6.19994946493923,OSS,Aggregates,,,,Aggregates,Aggregates
+SA,Saudi Arabia,2010,44036.7673465341,16.017742011478,SAU,Middle East & North Africa,Riyadh,46.6977,24.6748,High income,Not classified
+SB,Solomon Islands,2010,2439.86232530792,0.64410896050286,SLB,East Asia & Pacific,Honiara,159.949,-9.42676,Lower middle income,IDA
+SC,Seychelles,2010,20960.7485670519,4.90141472652334,SYC,Sub-Saharan Africa,Victoria,55.4466,-4.6309,High income,IBRD
+SD,Sudan,2010,3089.57247579124,0.459400595408646,SDN,Sub-Saharan Africa,Khartoum,32.5363,15.5932,Lower middle income,IDA
+SE,Sweden,2010,47791.3715245947,5.13215540076983,SWE,Europe & Central Asia,Stockholm,18.0645,59.3327,High income,Not classified
+SG,Singapore,2010,78294.0314218674,8.35379925511136,SGP,East Asia & Pacific,Singapore,103.85,1.28941,High income,Not classified
+SI,Slovenia,2010,33350.6135931956,7.71752962901674,SVN,Europe & Central Asia,Ljubljana,14.5044,46.0546,High income,Not classified
+SK,Slovak Republic,2010,25528.7457310201,6.57525241921064,SVK,Europe & Central Asia,Bratislava,17.1073,48.1484,High income,Not classified
+SL,Sierra Leone,2010,1406.17537656313,0.0919628233272586,SLE,Sub-Saharan Africa,Freetown,-13.2134,8.4821,Low income,IDA
+SM,San Marino,2010,72038.113620541,NA,SMR,Europe & Central Asia,San Marino,12.4486,43.9322,High income,Not classified
+SN,Senegal,2010,2797.11016032924,0.554497610572779,SEN,Sub-Saharan Africa,Dakar,-17.4734,14.7247,Lower middle income,IDA
+SO,Somalia,2010,NA,0.0523086983719374,SOM,Sub-Saharan Africa,Mogadishu,45.3254,2.07515,Low income,IDA
+SR,Suriname,2010,18840.3690170884,3.28844169441683,SUR,Latin America & Caribbean,Paramaribo,-55.1679,5.8232,Upper middle income,IBRD
+SS,South Sudan,2010,NA,0,SSD,Sub-Saharan Africa,Juba,31.6,4.85,Low income,IDA
+ST,Sao Tome and Principe,2010,3357.47019269148,0.554409775353159,STP,Sub-Saharan Africa,Sao Tome,6.6071,0.20618,Lower middle income,IDA
+SV,El Salvador,2010,7328.79834955232,1.05758895269101,SLV,Latin America & Caribbean,San Salvador,-89.2073,13.7034,Lower middle income,IBRD
+SX,Sint Maarten (Dutch part),2010,43543.8897582329,NA,SXM,Latin America & Caribbean,Philipsburg,,,High income,Not classified
+SY,Syrian Arab Republic,2010,NA,2.79461137137197,SYR,Middle East & North Africa,Damascus,36.3119,33.5146,Low income,IDA
+SZ,Eswatini,2010,7459.22804259304,0.948498414317255,SWZ,Sub-Saharan Africa,Mbabane,31.4659,-26.5225,Lower middle income,IBRD
+T2,Latin America & the Caribbean (IDA & IBRD countries),2010,14767.0401028562,2.70705530228988,TLA,Aggregates,,,,Aggregates,Aggregates
+T3,Middle East & North Africa (IDA & IBRD countries),2010,9874.95238280794,3.78240567122425,TMN,Aggregates,,,,Aggregates,Aggregates
+T4,East Asia & Pacific (IDA & IBRD countries),2010,8607.77923928214,4.94149163009326,TEA,Aggregates,,,,Aggregates,Aggregates
+T5,South Asia (IDA & IBRD),2010,4076.36781589934,1.14982190181249,TSA,Aggregates,,,,Aggregates,Aggregates
+T6,Sub-Saharan Africa (IDA & IBRD countries),2010,3656.16623097424,0.814782471438768,TSS,Aggregates,,,,Aggregates,Aggregates
+T7,Europe & Central Asia (IDA & IBRD countries),2010,18549.2772277673,7.28917958023395,TEC,Aggregates,,,,Aggregates,Aggregates
+TC,Turks and Caicos Islands,2010,NA,NA,TCA,Latin America & Caribbean,Grand Turk,-71.141389,21.4602778,High income,Not classified
+TD,Chad,2010,1732.69158409284,0.0861770793399739,TCD,Sub-Saharan Africa,N'Djamena,15.0445,12.1048,Low income,IDA
+TG,Togo,2010,1625.54544572513,0.409550531528072,TGO,Sub-Saharan Africa,Lome,1.2255,6.1228,Low income,IDA
+TH,Thailand,2010,14399.0445142977,3.50502102595918,THA,East Asia & Pacific,Bangkok,100.521,13.7308,Upper middle income,IBRD
+TJ,Tajikistan,2010,2390.02217412609,0.32149227681229,TJK,Europe & Central Asia,Dushanbe,68.7864,38.5878,Low income,IDA
+TL,Timor-Leste,2010,2931.4317167304,0.219475325943721,TLS,East Asia & Pacific,Dili,125.567,-8.56667,Lower middle income,Blend
+TM,Turkmenistan,2010,8616.88953254413,11.2753333801173,TKM,Europe & Central Asia,Ashgabat,58.3794,37.9509,Upper middle income,IBRD
+TN,Tunisia,2010,10789.6123137916,2.58010041141506,TUN,Middle East & North Africa,Tunis,10.21,36.7899,Lower middle income,IBRD
+TO,Tonga,2010,5166.93205439861,1.15405699118108,TON,East Asia & Pacific,Nuku'alofa,-175.216,-21.136,Upper middle income,IDA
+TR,Turkey,2010,20027.6668282982,4.10800991143113,TUR,Europe & Central Asia,Ankara,32.3606,39.7153,Upper middle income,IBRD
+TT,Trinidad and Tobago,2010,28879.2873679678,17.0312857641942,TTO,Latin America & Caribbean,Port-of-Spain,-61.4789,10.6596,High income,IBRD
+TV,Tuvalu,2010,3281.50217714704,0.95047999239616,TUV,East Asia & Pacific,Funafuti,179.089567,-8.6314877,Upper middle income,IDA
+TZ,Tanzania,2010,2006.97132607023,0.155818272328488,TZA,Sub-Saharan Africa,Dodoma,35.7382,-6.17486,Low income,IDA
+UA,Ukraine,2010,11778.3136960259,5.87433283451863,UKR,Europe & Central Asia,Kiev,30.5038,50.4536,Lower middle income,IBRD
+UG,Uganda,2010,1873.51379393758,0.118723958593524,UGA,Sub-Saharan Africa,Kampala,32.5729,0.314269,Low income,IDA
+US,United States,2010,54315.9124805391,17.4341958733314,USA,North America,Washington D.C.,-77.032,38.8895,High income,Not classified
+UY,Uruguay,2010,19293.7407978576,1.86945211062036,URY,Latin America & Caribbean,Montevideo,-56.0675,-34.8941,High income,IBRD
+UZ,Uzbekistan,2010,4953.96136781972,4.2909559420777,UZB,Europe & Central Asia,Tashkent,69.269,41.3052,Lower middle income,Blend
+V1,Pre-demographic dividend,2010,3319.92564489614,0.495776189521186,PRE,Aggregates,,,,Aggregates,Aggregates
+V2,Early-demographic dividend,2010,7085.0464390503,2.01910781958775,EAR,Aggregates,,,,Aggregates,Aggregates
+V3,Late-demographic dividend,2010,11788.7880825251,5.81851602979989,LTE,Aggregates,,,,Aggregates,Aggregates
+V4,Post-demographic dividend,2010,43358.1930801388,11.0309321959576,PST,Aggregates,,,,Aggregates,Aggregates
+VC,St. Vincent and the Grenadines,2010,11447.6173170625,2.30925549602808,VCT,Latin America & Caribbean,Kingstown,-61.2653,13.2035,Upper middle income,Blend
+VE,"Venezuela, RB",2010,NA,6.02673521626732,VEN,Latin America & Caribbean,Caracas,-69.8371,9.08165,Upper middle income,IBRD
+VG,British Virgin Islands,2010,NA,NA,VGB,Latin America & Caribbean,Road Town,-64.623056,18.431389,High income,Not classified
+VI,Virgin Islands (U.S.),2010,NA,NA,VIR,Latin America & Caribbean,Charlotte Amalie,-64.8963,18.3358,High income,Not classified
+VN,Vietnam,2010,5089.41101647328,1.69880622599295,VNM,East Asia & Pacific,Hanoi,105.825,21.0069,Lower middle income,IBRD
+VU,Vanuatu,2010,3088.97887864833,0.55034375317506,VUT,East Asia & Pacific,Port-Vila,168.321,-17.7404,Lower middle income,IDA
+WS,Samoa,2010,6010.08394231769,1.02181301897345,WSM,East Asia & Pacific,Apia,-171.752,-13.8314,Upper middle income,IDA
+XC,Euro area,2010,42639.4581434755,7.44119878668273,EMU,Aggregates,,,,Aggregates,Aggregates
+XD,High income,2010,44314.3370287848,11.2839635646866,HIC,Aggregates,,,,Aggregates,Aggregates
+XE,Heavily indebted poor countries (HIPC),2010,2231.45701204118,0.234773261478927,HPC,Aggregates,,,,Aggregates,Aggregates
+XF,IBRD only,2010,9576.62130667889,3.95213101635166,IBD,Aggregates,,,,Aggregates,Aggregates
+XG,IDA total,2010,2981.7893891814,0.508359131327255,IDA,Aggregates,,,,Aggregates,Aggregates
+XH,IDA blend,2010,4274.67055378496,0.873611160042804,IDB,Aggregates,,,,Aggregates,Aggregates
+XI,IDA only,2010,2339.78397303007,0.322658369065082,IDX,Aggregates,,,,Aggregates,Aggregates
+XJ,Latin America & Caribbean (excluding high income),2010,14430.2717992366,2.45524814555752,LAC,Aggregates,,,,Aggregates,Aggregates
+XK,Kosovo,2010,7627.89142996138,NA,XKX,Europe & Central Asia,Pristina,20.926,42.565,Upper middle income,IDA
+XL,Least developed countries: UN classification,2010,2376.75942542523,0.259435136062191,LDC,Aggregates,,,,Aggregates,Aggregates
+XM,Low income,2010,1752.93408494365,0.391044895686723,LIC,Aggregates,,,,Aggregates,Aggregates
+XN,Lower middle income,2010,5241.37429678339,1.4414840954661,LMC,Aggregates,,,,Aggregates,Aggregates
+XO,Low & middle income,2010,7789.94927538161,3.08100891873695,LMY,Aggregates,,,,Aggregates,Aggregates
+XP,Middle income,2010,8391.64364362649,3.34480813450963,MIC,Aggregates,,,,Aggregates,Aggregates
+XQ,Middle East & North Africa (excluding high income),2010,9823.01553084333,3.76462282270745,MNA,Aggregates,,,,Aggregates,Aggregates
+XT,Upper middle income,2010,12248.9253102248,5.67970503067928,UMC,Aggregates,,,,Aggregates,Aggregates
+XU,North America,2010,53386.1559585617,17.2699742549595,"NAC",Aggregates,,,,Aggregates,Aggregates
+XY,Not classified,2010,NA,NA,INX,Aggregates,,,,Aggregates,Aggregates
+YE,"Yemen, Rep.",2010,NA,1.03606785860105,YEM,Middle East & North Africa,Sana'a,44.2075,15.352,Low income,IDA
+Z4,East Asia & Pacific,2010,11905.96421551,5.62933501746916,EAS,Aggregates,,,,Aggregates,Aggregates
+Z7,Europe & Central Asia,2010,30791.9094698178,7.36881437857361,ECS,Aggregates,,,,Aggregates,Aggregates
+ZA,South Africa,2010,13618.7252551469,8.30017911837692,ZAF,Sub-Saharan Africa,Pretoria,28.1871,-25.746,Upper middle income,IBRD
+ZF,Sub-Saharan Africa (excluding high income),2010,3654.38370816761,0.814361800098839,SSA,Aggregates,,,,Aggregates,Aggregates
+ZG,Sub-Saharan Africa,2010,3656.16623097424,0.814782471438768,NA,NA,NA,NA,NA,NA,NA
+ZH,Africa Eastern and Southern,2010,3567.52025961058,1.04887555573041,NA,NA,NA,NA,NA,NA,NA
+ZI,Africa Western and Central,2010,3794.17949257788,0.472819124711189,NA,NA,NA,NA,NA,NA,NA
+ZJ,Latin America & Caribbean,2010,14853.9690255311,2.7350019288223,NA,NA,NA,NA,NA,NA,NA
+ZM,Zambia,2010,3125.52884870272,0.194032244337162,ZMB,Sub-Saharan Africa,Lusaka,28.2937,-15.3982,Lower middle income,IDA
+ZQ,Middle East & North Africa,2010,14796.6756395055,5.54407212176223,MEA,Aggregates,,,,Aggregates,Aggregates
+ZT,IDA & IBRD total,2010,8019.91895877627,3.1414540823845,IBT,Aggregates,,,,Aggregates,Aggregates
+ZW,Zimbabwe,2010,2849.07936637208,0.772579157468171,ZWE,Sub-Saharan Africa,Harare,31.0672,-17.8312,Lower middle income,Blend
