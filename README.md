@@ -1,0 +1,1 @@
+BOOK: Quantitative Econmics with R: A Data Science Approach. Vikram Dayal
